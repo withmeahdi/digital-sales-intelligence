@@ -12,12 +12,12 @@ The project analyzes sales performance across revenue, orders, customers, countr
 
 The analysis focuses on:
 
-- How is revenue performing over time?
-- How are orders, customers, and average order value changing?
-- Which countries generate the most revenue?
-- Which artists contribute the most revenue?
-- Which genres perform best?
-- What changes can be identified from year-over-year performance?
+* How is revenue performing over time?
+* How are orders, customers, and average order value changing?
+* Which countries generate the most revenue?
+* Which artists contribute the most revenue?
+* Which genres perform best?
+* What changes can be identified from year-over-year performance?
 
 ## Data
 
@@ -25,23 +25,23 @@ The project uses the **Chinook Database**, a fictional relational dataset contai
 
 The data was transformed into a dimensional model consisting of:
 
-- Fact Sales
-- Dim Customer
-- Dim Artist
-- Dim Genre
-- Dim Date
-- Dim Track
+* Fact Sales
+* Dim Customer
+* Dim Artist
+* Dim Genre
+* Dim Date
+* Dim Track
 
 ## SQL
 
 SQL is used for data exploration and analytical queries, including:
 
-- Data inspection
-- Joins
-- Aggregation
-- Filtering
-- Ranking
-- Sales analysis
+* Data inspection
+* Joins
+* Aggregation
+* Filtering
+* Ranking
+* Sales analysis
 
 SQL is developed through a **learning-by-doing approach**, applying queries directly to practical business analysis problems.
 
@@ -49,28 +49,30 @@ SQL is developed through a **learning-by-doing approach**, applying queries dire
 
 Power BI is used for:
 
-- Data modeling
-- DAX measures
-- KPI development
-- Interactive filtering
-- Revenue trend analysis
-- Country, artist, and genre analysis
-- Business insight generation
+* Data modeling
+* DAX measures
+* KPI development
+* Interactive filtering
+* Revenue trend analysis
+* Country, artist, and genre analysis
+* Business insight generation
 
 ### Dashboard
 
+**[View Live Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiY2UwYTAyMzQtOThlOS00ODI4LThhMjItYzViNWY3NmMxNWQxIiwidCI6ImZjNjk0MmZkLTM3ZWEtNGNjZS04Nzk1LWJmNzUwZTQ2ZDhiZiIsImMiOjEwfQ%3D%3D)**
+
 The dashboard provides an interactive view of:
 
-- Total Revenue
-- Total Orders
-- Total Customers
-- Average Order Value
-- Revenue per Customer
-- Revenue Growth
-- Genre Performance
-- Top Artists
-- Top Countries
-- Top Genres
+* Total Revenue
+* Total Orders
+* Total Customers
+* Average Order Value
+* Revenue per Customer
+* Revenue Growth
+* Genre Performance
+* Top Artists
+* Top Countries
+* Top Genres
 
 Dashboard results dynamically change based on selected filters.
 
@@ -78,13 +80,13 @@ Dashboard results dynamically change based on selected filters.
 
 The analysis examines:
 
-- Revenue growth
-- Transaction activity
-- Customer movement
-- Average order value
-- Market concentration
-- Genre performance
-- Artist contribution
+* Revenue growth
+* Transaction activity
+* Customer movement
+* Average order value
+* Market concentration
+* Genre performance
+* Artist contribution
 
 The project focuses on identifying meaningful patterns and business signals without making unsupported causal claims.
 
@@ -111,3 +113,4 @@ digital-sales-intelligence/
 │   └── 03_model_build.sql
 │
 └── README.md
+```
